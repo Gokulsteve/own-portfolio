@@ -1,0 +1,60 @@
+body{
+  font-family: Arial, Helvetica, sans-serif; 
+  background-image: url(flat-lay-workstation-with-copy-space-laptop.jpg);
+  background-size:1600px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 100px ;
+}
+.navbar, .logo h3{
+   color: rgb(6, 223, 248);
+   cursor:pointer;
+   margin-left: 5PX;
+
+}
+.navbar, .menu{
+    display: flex;
+    column-gap: 30px; 
+}  
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar, .menu .home{
+    color: cyan;
+}
+
+.menu a:hover{
+    border: 3px solid cyan;
+
+}
+.hd {
+    margin-top: 9vh;
+    margin-left: 10vh;
+    color: rgb(32, 218, 144);
+    font-family: cursive;
+}
+
+.hd1 {
+    font-size: 30px;
+    color: goldenrod;
+}
+
+  .container{
+    width: 85%;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  

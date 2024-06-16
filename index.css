@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-image: url(flat-lay-workstation-with-copy-space-laptop.jpg);
+    background-size:1600px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 100px ;
+}
+
+.navbar, .logo h1{
+    color:cyan;
+    cursor:pointer;
+}
+
+.navbar, .menu{
+    display: flex;
+    column-gap: 30px;
+      
+}  
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar, .menu .home{
+    color: cyan;
+}
+
+.menu a:hover{
+    border: 3px solid cyan;
+
+}
+
+.txt-left h1{
+        padding-top: 30px;
+        color: aliceblue;
+        margin-left: 30vh;
+        word-spacing: 10px;
+        margin-top: 0vh;
+
+}
+.txt-left h3{
+    padding-top: 30px;
+    color: aliceblue;
+    margin-left: 30vh;
+    word-spacing: 10px;
+    margin-top: 15vh;
+
+}
+
+.img {
+    height: 15vh;
+    margin-top: 10vh;
+    margin-left: -13vh;
+}
+
+.hd {
+    margin-top: -10vh;
+    margin-left: 5vh;
+}
+
+.txt-left p{
+    margin-left: 0vh;
+    padding-top: 20px;
+    color: aliceblue;
+    word-spacing: 10px;
+}
+
+.txt-left .social-media{
+    padding-top: 20px;  
+     display: flex;
+    column-gap: 30px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 0vh;
+}
+ .txt-left .social-media :hover{
+        color: cyan;
+}
+.image{
+    background-size: 60px;
+    background-image: url(pexels-pixabay-267371.jpg);
+    background-repeat: no-repeat;
+    margin-top: -12vh;
+
+}
+.text {
+   margin-left: 30vh;
+}

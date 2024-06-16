@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-image: url(flat-lay-workstation-with-copy-space-laptop.jpg);
+    background-size:1600px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 100px ;
+}
+.navbar, .logo h3{
+    color: rgb(6, 223, 248);
+    cursor:pointer;
+    margin-left: 0PX;
+}
+.navbar, .menu{
+    display: flex;
+    column-gap: 30px; 
+}  
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar, .menu .home{
+    color: cyan;
+}
+
+.menu a:hover{
+    border: 3px solid cyan;
+}
+.hd1 {
+    color: #0ee82f;
+    font-family: cursive;
+    font-style: italic;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.pr1 {
+    margin-top: 6vh;
+    margin-left: 10vh;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color:gold;
+    text-decoration: underline white solid 3px;
+}
+
+.pr2 {
+    margin-left: 20vh;
+    font-family: cursive;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.pr3 {
+    margin-left: 10vh;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color:gold;
+    text-decoration: underline white solid 3px;
+}
+
+.pr4 {
+    margin-left: 20vh;
+    font-family: cursive;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.pr5 {
+    margin-left: 10vh;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color:gold;
+    text-decoration: underline white solid 3px;
+}
+
+.pr6 {
+    margin-left: 20vh;
+    font-family: cursive;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.pr7 {
+    margin-left: 10vh;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color:gold;
+    text-decoration: underline white solid 3px;
+}
+
+.pr8 {
+    margin-left: 20vh;
+    font-family: cursive;
+    font-style: italic;
+    color: #ffffff;
+}
+
+
+.pr9 {
+    margin-left: 10vh;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color:gold;
+    text-decoration: underline white solid 3px;
+}
+
+.pr10 {
+    margin-left: 20vh;
+    font-family: cursive;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.pr11 {
+    margin-left: 10vh;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color:gold;
+    text-decoration: underline white solid 3px;
+}
+
+.pr12 {
+    margin-left: 20vh;
+    font-family: cursive;
+    font-style: italic;
+    color: #ffffff;
+}
